@@ -1,0 +1,31 @@
+> kubectl version
+
+> kubectl config get-contexts
+
+> kubectl config use-context docker-desktop
+
+> kubectl config get-clusters
+
+> kubectl cluster-info
+
+> kubectl get nodes
+
+> kubectl create deployment nginx --image=nginx
+
+> kubectl expose deployment nginx --type=LoadBalancer --port=80
+
+> kubectl get pods
+
+> kubectl get svc
+
+>kubectl scale deployment nginx --replicas=3
+
+>kubectl get svc
+
+>kubectl get ns
+
+>kubectl create ns namespace-sachins218
+
+>kubectl get ns
+
+>kubectl get svc
